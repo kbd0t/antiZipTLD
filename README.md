@@ -17,7 +17,7 @@ This extension will check if the domain you are visiting ends with .zip. If it d
 2. Click on the **Remove** button
 3. Done!
 
-## Options
+## ⚙ Options
 In the moment of writing this, you can add domains to the whitelist. This means that if you add a domain to the whitelist, you will not see the warning message when you visit that domain, you can remove domains from the whitelist, and completely **disable** the extension. (temporarily for safety reasons), all of this can be accessed when clicking at the icon of the extension after instalation.
 
 ## ❗ Will it ever be available for Firefox or [insert here any other non-chromium browser]?
