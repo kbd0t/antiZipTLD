@@ -1,0 +1,20 @@
+{
+    "name": "Anti-ZIP TLD",
+    "version": "1.0.0",
+    "description": "Warns when visiting a .zip TLD to prevent scamming.",
+    "author": "kbd0t",
+    "manifest_version": 2,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "*://*.zip/*",
+        "storage",
+        "tabs"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
+}

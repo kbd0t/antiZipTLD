@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Popup</title>
+        <link rel="stylesheet" href="/popup.css">
+    </head>
+    <body>
+        <h1>Anti-ZIP TLD</h1>
+        <div class="main-content">
+            <div class="section">
+                <p>Add new allowed domain</p>
+                <input type="text" id="domainInput" placeholder="Enter domain name">
+                <button id="addDomain">Add Domain</button>
+            </div>
+            <div class="section">
+                <p>Allowed domains</p>
+                <select id="allowedDomains"></select>
+                <button id="removeDomain">Remove Domain</button>
+            </div>
+            <div class="section">
+                <button id="disableChecking">Disable Checking (NOT SAFE)</button>
+            </div>
+        </div>
+        <div class="footer">
+            <p>by <a href="https://github.com/kbd0t" target="_blank">kbd0t on GitHub</a></p>
+        </div>
+        <script src="/popup.js"></script>
+    </body>
+</html>
